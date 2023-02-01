@@ -23,7 +23,7 @@ php artisan onethirtyone:s3-migrate {--force : Migrates without confirmation pro
 ```
 This will migrate all files in your selected local disks to S3.  
 
-When the migration is complete a `OneThirtyOne\S3Migration\Events\S3MigrationCompleted` event will be fired. The event will receive a collection of `Illuminate\Support\File` files. These are the files that have been migrated.
+When the migration is complete a `Sheinfeld\S3Migration\Events\S3MigrationCompleted` event will be fired. The event will receive a collection of `Illuminate\Support\File` files. These are the files that have been migrated.
 
 You should listen for this event to perform actions locally such as updating a database table with the new S3 image path or delete the local storage files.
 

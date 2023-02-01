@@ -1,6 +1,6 @@
 <?php
 
-namespace OneThirtyOne\S3Migration\Events;
+namespace Sheinfeld\S3Migration\Events;
 
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Foundation\Bus\Dispatchable;

@@ -1,5 +1,5 @@
 {
-    "name": "onethirtyone/laravel-s3-migrate",
+    "name": "sheinfeld/laravel-s3-migrate",
     "description": "A Laravel package to migrate from local storage to Amazon S3",
     "keywords": [
         "laravel",
@@ -20,22 +20,22 @@
     },
     "autoload": {
         "psr-4": {
-            "OneThirtyOne\\S3Migration\\": "src/"
+            "Sheinfeld\\S3Migration\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "OneThirtyOne\\S3Migration\\Tests\\": "tests"
+            "Sheinfeld\\S3Migration\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "OneThirtyOne\\S3Migration\\ServiceProvider"
+                "Sheinfeld\\S3Migration\\ServiceProvider"
             ],
             "aliases": {
-                "FileCollector": "OneThirtyOne\\S3Migration\\Facades\\FileCollector",
-                "S3Migrator": "OneThirtyOne\\S3Migration\\Facades\\S3Migrator"
+                "FileCollector": "Sheinfeld\\S3Migration\\Facades\\FileCollector",
+                "S3Migrator": "Sheinfeld\\S3Migration\\Facades\\S3Migrator"
             }
         }
     },

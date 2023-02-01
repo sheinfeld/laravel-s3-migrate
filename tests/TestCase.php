@@ -1,11 +1,11 @@
 <?php
 
-namespace OneThirtyOne\S3Migration\Tests;
+namespace Sheinfeld\S3Migration\Tests;
 
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Storage;
-use OneThirtyOne\S3Migration\ServiceProvider;
+use Sheinfeld\S3Migration\ServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 /**

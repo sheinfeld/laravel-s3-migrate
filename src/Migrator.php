@@ -1,6 +1,6 @@
 <?php
 
-namespace OneThirtyOne\S3Migration;
+namespace Sheinfeld\S3Migration;
 
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
@@ -11,14 +11,14 @@ use Illuminate\Support\Str;
 class Migrator
 {
     /**
-     * @var \OneThirtyOne\S3Migration\File
+     * @var \Sheinfeld\S3Migration\File
      */
     protected $file;
 
     /**
      * Migrator constructor.
      *
-     * @param \OneThirtyOne\S3Migration\File $file
+     * @param \Sheinfeld\S3Migration\File $file
      */
     public function __construct()
     {

@@ -1,10 +1,10 @@
 <?php
 
-namespace OneThirtyOne\S3Migration;
+namespace Sheinfeld\S3Migration;
 
 use Illuminate\Filesystem\FilesystemManager;
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
-use OneThirtyOne\S3Migration\Commands\MigrateCommand;
+use Sheinfeld\S3Migration\Commands\MigrateCommand;
 
 class ServiceProvider extends LaravelServiceProvider
 {

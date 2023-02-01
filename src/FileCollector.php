@@ -1,6 +1,6 @@
 <?php
 
-namespace OneThirtyOne\S3Migration;
+namespace Sheinfeld\S3Migration;
 
 use Illuminate\Filesystem\FilesystemManager;
 use Illuminate\Support\Collection;

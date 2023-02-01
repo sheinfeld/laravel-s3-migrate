@@ -1,14 +1,14 @@
 <?php
 
-namespace OneThirtyOne\S3Migration\Tests;
+namespace Sheinfeld\S3Migration\Tests;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Event;
-use OneThirtyOne\S3Migration\Events\S3MigrationCompleted;
-use OneThirtyOne\S3Migration\Exceptions\InvalidAwsCredentials;
-use OneThirtyOne\S3Migration\Facades\FileCollector;
+use Sheinfeld\S3Migration\Events\S3MigrationCompleted;
+use Sheinfeld\S3Migration\Exceptions\InvalidAwsCredentials;
+use Sheinfeld\S3Migration\Facades\FileCollector;
 
 class MigrationTest extends TestCase
 {

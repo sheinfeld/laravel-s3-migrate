@@ -1,6 +1,6 @@
 <?php
 
-namespace OneThirtyOne\S3Migration\Facades;
+namespace Sheinfeld\S3Migration\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace OneThirtyOne\S3Migration\Commands;
+namespace Sheinfeld\S3Migration\Commands;
 
 use Illuminate\Console\Command;
-use OneThirtyOne\S3Migration\Events\S3MigrationCompleted;
-use OneThirtyOne\S3Migration\Exceptions\InvalidAwsCredentials;
-use OneThirtyOne\S3Migration\Facades\FileCollector;
-use OneThirtyOne\S3Migration\Facades\S3Migrator;
+use Sheinfeld\S3Migration\Events\S3MigrationCompleted;
+use Sheinfeld\S3Migration\Exceptions\InvalidAwsCredentials;
+use Sheinfeld\S3Migration\Facades\FileCollector;
+use Sheinfeld\S3Migration\Facades\S3Migrator;
 use Symfony\Component\Finder\SplFileInfo;
 
 /**
@@ -35,7 +35,7 @@ class MigrateCommand extends Command
 
     /**
      * Execute the console command.
-     * @throws \OneThirtyOne\S3Migration\Exceptions\InvalidAwsCredentials
+     * @throws \Sheinfeld\S3Migration\Exceptions\InvalidAwsCredentials
      */
     public function handle()
     {
@@ -68,7 +68,7 @@ class MigrateCommand extends Command
     }
 
     /**
-     * @throws \OneThirtyOne\S3Migration\Exceptions\InvalidAwsCredentials
+     * @throws \Sheinfeld\S3Migration\Exceptions\InvalidAwsCredentials
      */
     protected function verifyAwsCredentials()
     {
